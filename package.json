@@ -4,5 +4,18 @@
   "main": "index.js",
   "repository": "git@github.com:THCLab/oca-db-layer.git",
   "author": "blelump <blelump@martex.nom.pl>",
-  "license": "GPL3"
+  "license": "GPL3",
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "chai": "^4.3.4",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "test": "jest -c jest.ts-config.js",
+    "compile": "tsc"
+  }
 }
