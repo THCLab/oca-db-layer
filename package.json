@@ -1,0 +1,8 @@
+{
+  "name": "oca-db-layer",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:THCLab/oca-db-layer.git",
+  "author": "blelump <blelump@martex.nom.pl>",
+  "license": "GPL3"
+}
